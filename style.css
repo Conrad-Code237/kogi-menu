@@ -1,0 +1,124 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fcfbfa;
+    color: #2b2622;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero {
+    background-color: #2b2622;
+    color: #fcfbfa;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 4px solid #dfd5c6;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-style: italic;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+.status-badge {
+    background-color: #4a7c59;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.menu-section {
+    margin-top: 40px;
+}
+.menu-section h2 {
+    border-bottom: 2px solid #dfd5c6;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.item-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.item-info p {
+    font-size: 0.9rem;
+    color: #6e655f;
+}
+
+.price {
+    font-weight: bold;
+    color: #a45a32;
+    font-size: 1.1rem;
+}
+.infos-section {
+    margin-top: 50px;
+    background-color: #dfd5c6;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.infos-section h2 {
+    margin-bottom: 15px;
+}
+
+.hours {
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.8rem;
+    color: #8c827a;
+}
+.credits {
+    font-size: 0.75rem;
+    margin-top: 5px;
+    opacity: 0.7;
+}
+
+.credits a {
+    color: #a45a32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.credits a:hover {
+    text-decoration: underline;
+}
