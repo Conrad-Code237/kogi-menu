@@ -121,4 +121,13 @@ footer {
 
 .credits a:hover {
     text-decoration: underline;
+}.menu-notice {
+    background-color: #dfd5c6;
+    color: #2b2622;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 25px;
+    border-left: 4px solid #a45a32; /* Petite barre de style marron */
 }
